@@ -1,7 +1,7 @@
 // ----- Scripts -----
 const scriptsContainer = document.getElementById('scriptsContainer');
 
-scripts.forEach((script, index) => {
+scripts.forEach((script) => {
   const card = document.createElement('div');
   card.classList.add('script-card');
 
@@ -38,7 +38,7 @@ function showNotification() {
 const videosContainer = document.getElementById('videosContainer');
 
 // Add your video names here (without extension)
-const videoFiles = ["Video1"]; // Add "Video2", "Video3", etc.
+const videoFiles = ["Video1", "Video2"]; // Add more as needed
 
 videoFiles.forEach(name => {
   const card = document.createElement('div');
